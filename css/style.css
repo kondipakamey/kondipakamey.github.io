@@ -60,7 +60,7 @@ header
 	padding-top: 30px;
 	width: 50%;
 	font-size: 30px;
-	color: red;
+	color: #d34836;
 	float: right;
 	text-align: center;
 
@@ -462,6 +462,106 @@ a.lire_plus:hover
 }
 
 /* Fin de la section corps page portfolio */
+
+
+/* Debut de la section corps page portfolio */
+
+.contact
+{
+
+	padding: 20px;
+	margin: 20px auto; /* Centrer le contenu */
+	background-color: #FFFFFF; /* Couleur d'arriere plan blanche */
+}
+
+.adresse
+{
+	float: left;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+.formulaire
+{
+	float: right;
+	margin-top: 20px;
+	padding-right: 10px;
+}
+
+.contact_social
+{
+	margin-top: 40px;
+}
+
+#message
+{
+	width: 350px;
+	height: 120px;
+}
+
+.adresse p
+{
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+
+#nom, #email, #objet
+{
+	width: 350px;
+	margin-bottom: 5px;
+	height: 30px;
+}
+
+.bouton
+{
+	margin-top: 10px;
+	float: right;
+}
+
+.envoyer
+{
+	margin-left: 20px;
+	border-radius:5px;
+	background: #478bf9;
+	border:none;
+	color:#FFFFFF;
+	text-align: center;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+}
+
+.annuler, .envoyer
+{
+	width: 90px;
+	height: 40px;
+	
+}
+
+.annuler
+{
+	border-radius:5px;
+	background: #d34836;
+	border:none;
+	color:#FFFFFF;
+	text-align: center;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+}
+
+
+.google_map
+{
+	float: bottom;
+	height: 300px;
+	border: 2px solid black;
+}
+
+
+/* Fin de la section corps page portfolio */
+
+
+
 
 /* Debut Section pieds de page */
 
