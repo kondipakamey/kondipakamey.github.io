@@ -2,6 +2,7 @@
 
 /* Corps de la page Accueil */
 
+
 body
 {
 	
@@ -14,6 +15,9 @@ body
 	background-color: #FFFFFF;
 	
 }
+
+
+
 
 *{box-sizing: border-box}
 
@@ -141,7 +145,11 @@ div a
 @media screen and (min-width: 600px)
 {
 	
-	
+	#bloc_page
+	{
+		width: 950px;
+		margin:0 auto;
+	}
 	.social
 	{
 		padding-top: 0px;
@@ -163,7 +171,6 @@ div a
 		z-index: 9999;
 		position: fixed; 
 		top: 0; 
-		margin-left: 200px;
 		background-color: #FFFFFF;
 		/*border-left: none;
 		border-right: none; */
