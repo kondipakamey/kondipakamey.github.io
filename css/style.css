@@ -1,0 +1,501 @@
+
+
+/* Corps de la page Accueil */
+
+body
+{
+	
+	
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 1.6;
+	margin:0;
+	padding:0;
+	background-color: #FFFFFF;
+	
+}
+
+*{box-sizing: border-box}
+
+
+
+/* Debut Section pieds de page */
+
+header
+{
+	
+	background-color: #3399DD; 
+	
+}
+
+.en_tete
+{
+
+	width: 950px;
+	height: 100px;
+	margin: auto;
+}
+
+.mon_nom
+{
+	padding-top: 30px;
+	width: 50%;
+	font-size: 35px;
+	color: white;
+	float: left;
+	text-align: center;
+	
+	
+}
+
+.mon_titre
+{
+	padding-top: 30px;
+	width: 50%;
+	font-size: 30px;
+	color: red;
+	float: right;
+	text-align: center;
+
+}
+
+/* Debut barre de navigation */
+/* Debut de style de navigation pour les petits ecrans */
+nav ul
+{
+	list-style: none;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em; 
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #3399DD;
+}
+
+nav a
+{
+	
+	text-decoration: none;
+	color: #3399DD;
+	display: block;
+	transition: .3s background-color;
+}
+
+nav a:hover
+{
+	
+	color: red;
+	border-top: 2px solid red;
+
+}
+
+.active
+{
+	color: red;
+}
+
+.acceuil
+{
+	border-top: 2px solid red;
+}
+
+.social
+{
+	padding-top: 10px;
+	margin: auto;
+	text-align: center;
+}
+
+div a
+{
+	display: inline-block;
+}
+
+
+.nav_liens_sociaux
+{
+	
+	border-radius: 50%;
+		
+}
+
+
+	.footer_social_img
+	{
+		float: left;
+		width: 40px;
+		height: 35px;
+		margin-right: 10px;
+		
+	}
+
+/* Fin de style de navigation pour les petits ecrans */
+
+@media screen and (min-width: 600px)
+{
+	
+	
+	.social
+	{
+		padding-top: 0px;
+		float: right;
+	}
+	
+	
+	
+	nav
+	{
+		width: 950px; 
+		margin: auto;
+		border: 2px solid #3399DD;
+		
+	}
+	
+	.fixNavigation
+	{ 
+		z-index: 9999;
+		position: fixed; 
+		top: 0; 
+		margin-left: 200px;
+		background-color: #FFFFFF;
+		/*border-left: none;
+		border-right: none; */
+	}
+	
+	nav ul
+	{
+		float: left;
+	}
+	
+	nav li
+	{
+		
+		/*width: 120px;*/
+		border-bottom: none;
+		/*line-height: 50px;*/
+		font-size: 1.4em;
+	}
+	
+	nav a
+	{
+		padding: 10px;
+	}
+	
+	nav li
+	{
+		display: inline-block;
+	}
+	
+	.nav_liens_sociaux
+	{
+		border-radius: 50%;
+		float: right;
+	}
+	
+	
+	
+}
+
+/* Fin barre de navigation */
+
+
+/* Debut de la section page acceuil */
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+.profile
+{
+	width: 950px; /* definir une largeur de 950px */
+	padding: 20px;
+	margin: 20px auto; /* Centrer le contenu */
+	border: 2px solid #3399DD;
+	background-color: #FFFFFF; /* Couleur d'arriere plan blanche */
+	border-radius: 10px;
+}
+
+.profile_photo
+{
+	width: 35%;
+	float: left;
+}
+
+.profile_info
+{
+	width: 65%;
+	float: right;
+}
+
+.grand_titre
+{
+
+	margin-top: 0px;
+	font-size: 22px;
+}
+
+
+.profile_description
+{
+	width: 60%;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: left;
+}
+
+.profile_competence
+{
+	width: 40%;
+	padding-left: 20px;
+	border-left: 2px solid #3399DD;
+	float: right;
+}
+
+.boites
+{
+	width: 950px; /* definir une largeur de 950px */
+	margin: 20px auto;
+	background-color: #FFFFFF; 
+}
+
+.petit_rond
+{
+	background:#FFFFFF;
+	border-radius:50%;
+	margin-top:1px;
+	width:30px;
+	height:30px;
+	border:3px solid #3399DD; 
+	margin-right: 10px;
+	float: left;
+}
+
+.grand_rond
+{
+	text-align: center;
+	background:#FFFFFF;
+	border-radius:50%;
+	width:160px;
+	height:160px;
+	border:2px solid #3399DD; 
+}
+
+
+.boite
+{
+	width: 33.32%; /* definir une largeur de 950px */
+	padding: 10px;
+	
+	background-color: #FFFFFF /*#E1E6FA */; 
+	float: left;
+}
+
+
+.lire_plus
+{
+	float: right;
+	margin-right: 40px;
+	border:none;
+    padding:6px 4px 6px 4px;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background:#fff;
+	font:bold 15px Arial;
+	/*color:#3399DD; */
+	background-color: #3399DD;
+	color:#FFFFFF;
+}
+
+a.lire_plus:link
+{
+	text-decoration: none;
+}
+
+a.lire_plus:hover
+{
+	background-color: #FFFFFF;
+	color:red;
+}
+/* Fin Section corps page Accueil */
+
+/* Debut Section pieds de page */
+
+.trait_horizontal_footer
+{
+	padding-top: 5px;
+	border-bottom: 2px solid #3399DD;
+	width: 200px;
+}
+	
+.trait_horizontal_footer_social
+{
+	border-bottom: 2px solid #3399DD;
+	width: 175px;
+	padding-top: 5px;
+	margin-left: 50px;
+}
+	
+.image_titre
+{
+	background-image: url(titre.jpg);
+	background-color: #3399DD; 
+}
+
+.grand_titre_footer
+{
+	
+	text-align: center;
+	margin-top: 0px;
+	font-size: 22px;
+}
+
+	
+footer
+{
+	
+	background-color: #3399DD; 
+	
+}
+
+.pieds_de_page
+{
+	width: 950px; /* definir une largeur de 950px */
+	margin: auto;
+	margin-top: 20px;
+	background-color: #FFFFFF; 
+	border-top: 2px solid #3399DD;
+	/*border-radius: 10px;*/
+}
+
+.pieds_boite
+{
+	width: 33.32%; /* definir une largeur de 950px */
+	padding: 10px;
+	
+	background-color: #FFFFFF /*#E1E6FA */; 
+	float: left;
+}
+
+.footer_liens_sociaux
+{
+	float: right;
+}
+.footer_social_img
+{
+	float: left;
+	width: 40px;
+	height: 35px;
+	margin-right: 10px;
+	
+}
+.footer_social_link
+{
+	width: 210px;
+	height: 40px;
+}
+
+.trait_horizontal_footer_social a
+{
+	text-decoration: none;
+}
+
+
+
+.copyright
+{
+	border-top: 2px solid #3399DD;
+	background-color: #FFFFFF; 
+	text-align: center;
+	color: #3399DD
+}
+
+/* Fin Section pieds de page */
+
+
+
+/* Petit Ecran : Debut Media Queries */
+@media only screen and (max-width: 960px)
+{
+
+/* Petit Ecran : Debut Section corps page Accueil */
+	.profile
+	{
+		width: auto;
+	}
+	
+	.profile_photo, .profile_info
+	{
+		float: none;
+		width: auto;
+	}
+	
+	.mobile_trait_horizontal
+	{
+		padding-bottom: 50px;
+		border-bottom: 2px solid #3399DD;
+		
+	}
+	
+	.profile_description, .profile_competence
+	{
+		float: none;
+		width: auto;
+	}
+	
+	
+	.profile_competence
+	{
+		border-left: none;
+	}
+	
+	.boites
+	{
+		width: auto;
+	}
+
+	.boite
+	{
+		float: none;
+		width: auto;
+		padding-bottom: 50px;
+		border-bottom: 2px solid #3399DD;
+	}
+	
+	/* Petit Ecran : Fin Section corps page Accueil */
+	
+	/* Petit Ecran : Debut Section footer */
+	
+	.pieds_de_page
+	{
+		width: auto;
+		margin-bottom: 0px;
+	}
+
+	.pieds_boite
+	{
+		float: none;
+		width: auto;
+		border-bottom: 2px solid #3399DD;
+	}
+	
+	.copyright
+	{
+		padding-bottom: 30px;
+		border-top: 2px solid #FFFFFF;
+		
+	}
+	
+	/* Petit Ecran : Fin Section footer */
+
+}
+/* Petit Ecran : Fin Media queries */
