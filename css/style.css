@@ -370,10 +370,13 @@ a.lire_plus:hover
 	display: inline-block;
 	margin-bottom: 20px;
 	border-right: 2px solid #3399DD;
+	background-color: #F7F7F0;
 }
 
 .a_propos_titre
 {
+	margin-top: 15px;
+	padding-bottom: 10px;
 	font-size: 25px;
 	color: #3388BB;
 	border-right: 2px solid #3399DD;
@@ -416,10 +419,49 @@ a.lire_plus:hover
 
 /* Fin Section corps page a_propos */
 
+/* Debut de la section corps page portfolio */
 
+.nom_entreprise
+{
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
+.sec_gauche_experience
+{
+	padding-top: 5px;
+	float: left;
+}
+.sec_droite_experience
+{
+	padding-top: 5px;
+	padding-right: 20px;
+	width: 70%;
+	float: right;
+	text-align: justify;
+}
 
+.poste
+{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
 
+.mission
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.mission_desc
+{
+	padding-top: 5px;
+}
+
+/* Fin de la section corps page portfolio */
 
 /* Debut Section pieds de page */
 
@@ -600,6 +642,30 @@ footer
 		width: auto;
 		float: none;
 	}
+	
+	
+	/* Petit Ecran : Fin Section corps page A propos */
+	
+	/* Petit Ecran : Debut Section corps page portfolio */
+	
+	.sec_gauche_experience
+	{
+		display: none;
+	}
+	
+	.poste, .nom_entreprise
+	{
+		font-size: 20px;
+	}
+	
+	.sec_droite_experience
+	{
+		
+		width: auto;
+		float: none;
+	}
+	
+
 	
 	
 	/* Petit Ecran : Fin Section corps page A propos */
