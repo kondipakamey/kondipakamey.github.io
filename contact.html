@@ -23,6 +23,20 @@
 		<!-- scripts reseaux sociaux -->
 		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 		
+		<!-- Api google maps -->
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+		function initialize() {
+		  var mapProp = {
+			center:new google.maps.LatLng(45.380414, -71.929188),
+			zoom:17,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
+		  var map=new google.maps.Map(document.getElementById("google_map"),mapProp);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+		
 	</head>
 	
 	<body>
@@ -76,17 +90,18 @@
 					
 					<aside class="formulaire">
 						<form method="post" action="">
-							<p><label for="nom"> </label> <input type="text" name="nom" id="nom" size="40" maxlength="15" placeholder="Nom : "/></p>
-							<p><label for="email"> </label> <input type="email" name="email" id="email" size="40" maxlength="15" placeholder="Email : "/></p>
-							<p><label for="objet"> </label> <input type="text" name="objet" id="objet" size="40" placeholder="Objet du message"/></p>
-							<p><label for="message"> </label> <textarea name="message" id="message" size="20" >Votre message</textarea></p>
-							<p class="bouton"><input type="cancel" value="Annuler" class="annuler"/> <input type="submit" value="Envoyer" class="envoyer" /></p>
+							<p><label for="nom"> </label> <input type="text" name="nom" id="nom" size="40"  placeholder="Nom : " required /></p>
+							<p><label for="site"> </label> <input type="text" name="site" id="site" size="40"  placeholder="http:// " pattern="http:\/\/.*" required/></p>
+							<p><label for="email"> </label> <input type="email" name="email" id="email" size="40"  placeholder="Email : " required /></p>
+							<p><label for="objet"> </label> <input type="text" name="objet" id="objet" size="40" placeholder="Objet du message" required /></p>
+							<p><label for="message"> </label> <textarea name="message" id="message" size="20" required ></textarea></p>
+							<p class="bouton"><input type="Reset" value="Annuler" class="annuler"/> <input type="submit" value="Envoyer" class="envoyer" /></p>
 						</form>
 					<aside>
 					
 				</section>
-				
-				<section class="google_map">
+				<br clear="both"/>
+				<section id="google_map">
 					
 				</section>
 				<br clear="both"/>

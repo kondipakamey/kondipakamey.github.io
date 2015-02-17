@@ -468,11 +468,12 @@ a.lire_plus:hover
 
 .contact
 {
-
+	
 	padding: 20px;
 	margin: 20px auto; /* Centrer le contenu */
 	background-color: #FFFFFF; /* Couleur d'arriere plan blanche */
 }
+
 
 .adresse
 {
@@ -506,11 +507,12 @@ a.lire_plus:hover
 }
 
 
-#nom, #email, #objet
+#nom, #email, #objet, #site
 {
 	width: 350px;
 	margin-bottom: 5px;
 	height: 30px;
+	border-radius: 5px;
 }
 
 .bouton
@@ -550,9 +552,24 @@ a.lire_plus:hover
 }
 
 
-.google_map
-{
 
+input:focus:invalid, textarea:focus:invalid
+{
+	border-color: red;
+	
+}
+
+input:focus:valid, textarea:valid
+{
+	border-color: #56c93f;
+	background-image: none;
+}
+
+#google_map
+{
+	
+	margin-top: 25px;
+	height: 380px;	
 }
 
 
