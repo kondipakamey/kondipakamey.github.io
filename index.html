@@ -23,6 +23,18 @@
 		<!-- scripts reseaux sociaux -->
 		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 		
+		<script type='text/javascript'> 
+			$(function(){ 
+				$(window).scroll(function () {//Au scroll dans la fenetre on déclenche la fonction 
+					if ($(this).scrollTop() > 110) { //si on a défilé de plus de 110px du haut vers le bas 
+						$('nav').addClass("fixNavigation"); //on ajoute la classe "fixNavigation" à la balise nav 
+					} else { 
+						$('nav').removeClass("fixNavigation");//sinon on retire la classe "fixNavigation" à la balise nav 
+					} 
+				}); 
+			}); 
+		</script>
+		
 	</head>
 	
 	<body>
@@ -64,10 +76,8 @@
 					<article class="profile_description">
 						<h1 class="grand_titre">Bienvenue !</h1>
 						
-						<p> composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-							depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pou composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-							depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pou<br/>
-							composition et la mise en page avant impression.
+						<p> Je suis ravis de vous accueillir sur mon site web CV. A la base j'ai obtenu mon diplome de licence en Réseaux Informatique et Telecommunication en 2012 mais actuellement j'effectue une Maistrise en Informatique à l'Universite de Sherbrooke depuis ETE 2014. Autonome, je souhaiterais m'intégrer au sein d'une équipe dynamique et proactive, 
+						occuper un poste dans votre entreprise et ainsi pouvoir mettre à profit mes compétences techniques et mon expérience professionnelle.
 						</p>
 						<p class="mobile_trait_horizontal"><a href="documents/KondiPakamey_CV.pdf" class="lire_plus">Telecharger le CV</a></p>
 					</article>
@@ -75,17 +85,25 @@
 					<article class="profile_competence">
 						<h1 class="grand_titre">Competences</h1>
 						
-						<p><strong>You know, I </strong><br/>
-						was God once.<br/>
-						Quite possible.</p>
+						<p><strong>Suite office :   </strong><br/>
+						Word, Excel, PowerPoint<p>
 						
-						<p><strong>You dont know, I </strong><br/>
-						was God once.<br/>
-						My God is Alive.</p>
+						<p><strong>Outils de graphisme :</strong><br/>
+						Adobe Photoshop, Paint, AAA Logo<p>
 						
-						<p><strong>If You know, I </strong><br/>
-						was God once.<br/>
-						Quite possible.</p>
+						<p><strong>Systèmes d'exploitation:</strong><br/>
+						Unix, Linux, Windows 8-7-Vista, 2003&8 Server<p>
+						
+						<p><strong>Langages de programmation:</strong><br/>
+						JAVA (Plateformes JSE, JEE, J2ME), C/ C++, C#, HTML, CSS, XML, PHP, SQL<p>
+						
+						<p><strong>Environnement de développement:</strong><br/>
+						Netbeans, Éclipse, Visual Studio, Adobe Dreamweaver, Drupal<p>
+						
+						<p><strong>Base de données:</strong><br/>
+						MSSQL, MySQL, PostgreSQL, ACCESS. <p>
+						
+						
 					</article>
 				</section>
 				
@@ -99,8 +117,8 @@
 				<article class="boite">
 					<div><div class="petit_rond"></div><h1 class="grand_titre">A propos</h1></div>
 					
-					<p> composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-						depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pou composition et la mise en page avant impression. 
+					<p> Je me nome Kondi Le Roy PAKAMEY, je suis Analyste Programmeur en formation. Dans cette section A propos de moi,  
+					vous trouverez différentes informations concernant mon objectif professionnel et mes principaux centres d'interets et loisirs ...
 					</p>
 					<p><a href="a_propos.html" class="lire_plus">Lire Plus</a></p>
 				</article>
@@ -109,8 +127,8 @@
 				
 					<div><div class="petit_rond"></div><h1 class="grand_titre">Portfolio</h1></div>
 					
-					<p> composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-						depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pou composition et la mise en page avant impression. 
+					<p> Dans mon cursus scolaire, j'ai orienté mes etudes vers le domaine des technologies de l'information. Dans cette section Portfolio,  
+					vous trouverez différentes informations concernant mes etudes universitaire et mon parcours professionnel ...
 					</p>
 					<p><a href="portfolio.html" class="lire_plus">Lire Plus</a></p>
 				</article>
@@ -118,8 +136,8 @@
 				<article class="boite">
 					<div><div class="petit_rond"></div><h1 class="grand_titre">Contact</h1></div>
 					
-					<p> composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-						depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pou composition et la mise en page avant impression. 
+					<p> A travers ce site, j'espere vous avoir convaincu d'ètre la personne qu'il vous faut. Dans la partie contact,
+					n'hésitez pas à m'écrire pour me faire part de vos observtations, ou tout simplement m'envoyer un message, auquel je me ferai le plaisir de répondre...
 					</p>
 					<p><a href="contact.html" class="lire_plus">Lire Plus</a></p>
 				</article>
@@ -198,17 +216,6 @@
 		</footer>
 		
 		
-	</body>
-	
-	<script type='text/javascript'> 
-		$(function(){ 
-			$(window).scroll(function () {//Au scroll dans la fenetre on déclenche la fonction 
-				if ($(this).scrollTop() > 110) { //si on a défilé de plus de 110px du haut vers le bas 
-					$('nav').addClass("fixNavigation"); //on ajoute la classe "fixNavigation" à la balise nav 
-				} else { 
-					$('nav').removeClass("fixNavigation");//sinon on retire la classe "fixNavigation" à la balise nav 
-				} 
-			}); 
-		}); </script> 
+	</body> 
 	
 </html>

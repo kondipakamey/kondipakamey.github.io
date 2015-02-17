@@ -255,7 +255,7 @@ img
 
 .profile_description
 {
-	width: 60%;
+	width: 50%;
 	padding-right: 20px;
 	padding-left: 20px;
 	float: left;
@@ -263,7 +263,7 @@ img
 
 .profile_competence
 {
-	width: 40%;
+	width: 50%;
 	padding-left: 20px;
 	border-left: 2px solid #3399DD;
 	float: right;
@@ -313,6 +313,7 @@ img
 {
 	float: right;
 	margin-right: 40px;
+	margin-top: 10px;
 	border:none;
     padding:6px 4px 6px 4px;
 	border-radius:2px;
