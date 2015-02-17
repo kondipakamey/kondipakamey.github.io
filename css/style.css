@@ -459,7 +459,10 @@ a.lire_plus:hover
 .mission_desc
 {
 	padding-top: 5px;
+	
 }
+
+
 
 /* Fin de la section corps page portfolio */
 
@@ -783,8 +786,31 @@ footer
 
 	
 	
-	/* Petit Ecran : Fin Section corps page A propos */
+	/* Petit Ecran : Fin Section corps page portfolio */
 	
+	/* Petit Ecran : Debut Section corps page contact */
+	
+	
+	.addresse, .formulaire
+	{
+		float: none;
+	}
+	
+	#nom, #email, #objet, #site, #message
+	{
+		width: 280px;
+		margin-bottom: 10px;
+	}
+		
+	.contact_social
+	{
+		margin-bottom: 20px;
+	}
+	
+	
+	
+	
+	/* Petit Ecran : Fin Section corps page contact */
 	
 	/* Petit Ecran : Debut Section footer */
 	
