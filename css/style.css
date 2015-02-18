@@ -272,13 +272,16 @@ img
 .boites
 {
 	width: 950px; /* definir une largeur de 950px */
-	margin: 20px auto;
+	margin: 20px auto;	
+	text-align: justify;
 	background-color: #FFFFFF; 
 }
 
+
+
 .petit_rond
 {
-	background:#FFFFFF;
+	background:#F7F7F0;
 	border-radius:50%;
 	margin-top:1px;
 	width:30px;
@@ -303,16 +306,29 @@ img
 {
 	width: 33.32%; /* definir une largeur de 950px */
 	padding: 10px;
-	
 	background-color: #FFFFFF /*#E1E6FA */; 
 	float: left;
 }
+
+.boite_titre
+{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.boite p
+{
+	background-color: #F7F7F0;
+	padding: 5px;
+	border-radius: 10px;
+}
+
 
 
 .lire_plus
 {
 	float: right;
-	margin-right: 40px;
+	margin-right: 20px;
 	margin-top: 10px;
 	border:none;
     padding:6px 4px 6px 4px;
@@ -668,6 +684,8 @@ footer
 
 .copyright
 {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border-top: 2px solid #3399DD;
 	background-color: #FFFFFF; 
 	text-align: center;
@@ -832,8 +850,7 @@ footer
 	.copyright
 	{
 		padding-bottom: 30px;
-		border-top: 2px solid #FFFFFF;
-		
+		border-top: 2px solid #FFFFFF;	
 	}
 	
 	/* Petit Ecran : Fin Section footer */

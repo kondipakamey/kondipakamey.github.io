@@ -23,6 +23,18 @@
 		<!-- scripts reseaux sociaux -->
 		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 		
+		<!-- scripts barre de navigation fixe -->
+		<script type='text/javascript'> 
+		$(function(){ 
+			$(window).scroll(function () {//Au scroll dans la fenetre on déclenche la fonction 
+				if ($(this).scrollTop() > 110) { //si on a défilé de plus de 110px du haut vers le bas 
+					$('nav').addClass("fixNavigation"); //on ajoute la classe "fixNavigation" à la balise nav 
+				} else { 
+					$('nav').removeClass("fixNavigation");//sinon on retire la classe "fixNavigation" à la balise nav 
+				} 
+			}); 
+		}); </script> 
+		
 	</head>
 	
 	<body>
@@ -64,9 +76,9 @@
 						<div class="cercle"> <strong>Objectif <br/> Professionnel</strong> </div>
 						<div class="cercle_info">
 							<p>
-								composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-								depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pou composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-								depuis les années 1500, quand un peintre anonyme assembla
+								Autonome, persévérant, minutieux et efficace àtravailler en equipe, je suis très habile et j'apprends très vite. Analyste programmeur de mon état,
+								je souhaiterais m'intégrer au sein d'une équipe dynamique et proactive, occuper un poste dans votre entreprise 
+								et ainsi pouvoir mettre à profit mes compétences techniques et mon expérience professionnelle.
 							</p>
 						</div>
 					</article>
@@ -75,10 +87,17 @@
 						<div class="cercle"> <strong>Loisirs et <br/> Intèrèts</strong> </div>
 						<div class="cercle_info">
 							<p>
-								composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-								depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pou composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-								depuis les années 1500, quand un peintre anonyme assembla
+								Depuis mon plus jeune âge, j'ai toujours été l’Informaticien de mon quartier. Comme je suis curieux et passionné par la technologie, 
+								j’aidais souvent mes voisins en organisant des séances gratuites d’Initiation dans leurs taches d’installation et de 
+								configuration de différents équipements tels que des ordinateurs, cellulaires, récepteurs numériques.
 							</p>
+							<p> <br/>J'aime aussi faire la lecture, voyager et jouer au Soccer.</p>
+							<p> <br/><strong>Langue: </strong><br/>
+							Anglais parlé, lu et écrit (niveau intermédiaire) <br/>
+							Français parlé couramment (langue nationale). </p>
+							
+							<p> <br/><strong>Permis de conduire: </strong>Categorie B</p>
+
 						</div>
 					</article>
 				</section>
@@ -88,18 +107,24 @@
 					
 					<p class="statut"><strong>Disponible pour embauche </strong><br/>
 					<h1 class="grand_titre">Competences</h1>
-					
-					<p><strong>You know, I </strong><br/>
-					was God once.<br/>
-					Quite possible.</p>
-					
-					<p><strong>You dont know, I </strong><br/>
-					was God once.<br/>
-					My God is Alive.</p>
-					
-					<p><strong>If You know, I </strong><br/>
-					was God once.<br/>
-					Quite possible.</p>
+						
+						<p><strong>Suite office :   </strong><br/>
+						Word, Excel, PowerPoint<p>
+						
+						<p><strong>Outils de graphisme :</strong><br/>
+						Adobe Photoshop, Paint, AAA Logo<p>
+						
+						<p><strong>Systèmes d'exploitation:</strong><br/>
+						Unix, Linux, Windows 8-7-Vista, 2003&8 Server<p>
+						
+						<p><strong>Langages de programmation:</strong><br/>
+						JAVA (Plateformes JSE, JEE, J2ME), C/ C++, C#, HTML, CSS, XML, PHP, SQL<p>
+						
+						<p><strong>Environnement de développement:</strong><br/>
+						Netbeans, Éclipse, Visual Studio, Adobe Dreamweaver, Drupal<p>
+						
+						<p><strong>Base de données:</strong><br/>
+						MSSQL, MySQL, PostgreSQL, ACCESS. <p>
 				</aside>
 				<br clear="both"/>
 			</section>
@@ -182,16 +207,5 @@
 		
 		
 	</body>
-	
-	<script type='text/javascript'> 
-		$(function(){ 
-			$(window).scroll(function () {//Au scroll dans la fenetre on déclenche la fonction 
-				if ($(this).scrollTop() > 110) { //si on a défilé de plus de 110px du haut vers le bas 
-					$('nav').addClass("fixNavigation"); //on ajoute la classe "fixNavigation" à la balise nav 
-				} else { 
-					$('nav').removeClass("fixNavigation");//sinon on retire la classe "fixNavigation" à la balise nav 
-				} 
-			}); 
-		}); </script> 
 	
 </html>
