@@ -24,6 +24,10 @@ body
 	padding: 0px;
 }
 
+.effacer
+{
+	clear: both;
+}
 
 
 /* Debut Section pieds de page */
@@ -57,7 +61,7 @@ header
 
 .mon_titre
 {
-	padding-top: 30px;
+	padding-top: 35px;
 	width: 50%;
 	font-size: 30px;
 	color: #d34836;
