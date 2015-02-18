@@ -633,7 +633,7 @@ input:focus:valid, textarea:valid
 	margin: 20px auto; /* Centrer le contenu */
 	border: 2px solid red;
 	border-radius: 10px;
-	background-image: url("../images/error.PNG");
+	background-image: url("../images/error.png");
 }
 
 .error_text
