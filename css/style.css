@@ -753,10 +753,6 @@ footer
 /* Petit Ecran : Debut Media Queries */
 @media only screen and (max-device-width: 600px)
 {
-	.en_tete
-	{
-		width: auto;
-	}
 
 	.mon_nom, .mon_titre
 	{
@@ -910,8 +906,9 @@ footer
 	.pieds_boite
 	{
 		float: none;
-		width: auto;
+		width: 400px;
 		border-bottom: 2px solid #3399DD;
+		text-align: center;
 	}
 	
 	.copyright
