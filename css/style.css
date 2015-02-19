@@ -754,11 +754,10 @@ footer
 @media only screen and (max-device-width: 600px)
 {
 
-	.mon_nom, .mon_titre
+	.en_tete
 	{
 		
 		width: auto;
-		float: none;
 		
 	}
 
@@ -906,7 +905,7 @@ footer
 	.pieds_boite
 	{
 		float: none;
-		width: 400px;
+		
 		border-bottom: 2px solid #3399DD;
 		text-align: center;
 	}
