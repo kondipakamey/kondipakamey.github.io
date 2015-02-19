@@ -754,6 +754,15 @@ footer
 @media only screen and (max-device-width: 600px)
 {
 
+.mon_nom, .mon_titre
+{
+	
+	width: auto;
+	float: none;
+	
+}
+
+
 /* Petit Ecran : Debut Section corps page Accueil */
 	.profile
 	{
