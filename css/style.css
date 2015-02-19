@@ -751,7 +751,7 @@ footer
 
 
 /* Petit Ecran : Debut Media Queries */
-@media only screen and (max-width: 960px)
+@media only screen and (max-width: 600px)
 {
 
 /* Petit Ecran : Debut Section corps page Accueil */
@@ -903,7 +903,7 @@ footer
 	
 	.copyright
 	{
-		padding-bottom: 30px;
+		padding-bottom: 10px;
 		border-top: 2px solid #FFFFFF;	
 	}
 	
